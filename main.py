@@ -74,7 +74,7 @@ class FinancialWallet:
         records = self.load_records()
         results = []
         for record in records:
-            if (record.category == category) and (record.amount == amount) and (record.date == date) and (record.description == description):
+            if (record.category == category) and (record.amount == amount) and (record.description == description):
                 results.append(record)
         return results
 
